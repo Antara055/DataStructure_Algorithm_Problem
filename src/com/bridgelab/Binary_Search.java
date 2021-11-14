@@ -21,7 +21,7 @@ public class Binary_Search {
         Arrays.sort(s);
         System.out.println("Ater sort:" + Arrays.toString(s));
 
-        int index, left = 0;
+        int left = 0;
 
         int right = s.length - 1;
         System.out.println("Enter the word you want to search:");
